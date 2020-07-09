@@ -135,7 +135,7 @@ class EightQueensApp:
             i = next_slot[0]
             j = next_slot[1]
 
-            self._chess_board[i][j].configure(text='Q')
+            self._chess_board[i][j].configure(text=u'\u265B', font=('', 20))
 
     def _remove_unwanted_slots(self, next_slot):
         '''Removes slots where queen is able to attack.
